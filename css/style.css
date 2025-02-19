@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: calc(1em + 0.5rem);
+    font: inherit;
+}
+
+body {
+    background-color: #06061a;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 1.25rem; 
+    padding-block: 1.25rem;
+    max-width: 1366px;
+    margin-inline: auto;
+}
+
+.header__logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.nav__ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav__a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.background {
+    background: linear-gradient(150deg, rgba(172, 60, 246, 0.2), #06061a);
+}
+
+.hero {
+    display: flex;
+    padding-inline: 1.25rem;
+    padding-top: 6rem;
+    overflow: hidden;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.hero__left {
+    flex: 1;
+}
+
+.hero__right {
+    flex: 1;
+}
+
+.hero__up-text {
+    color: #2eb1a3;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.hero__title {
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+    margin-top: 0.75rem;
+}
+
+.hero_descprition {
+    font-size: 0,9rem;
+    opacity: 0,6;
+    font-weight: 300;
+    line-height: calc(1em + 0.5rem);
+    margin-block: 1.5rem;
+    max-width: 65ch;
+}
+
+.hero__button {
+    font-size: 1rem;
+    background: linear-gradient(to right,#e8546b, #ac3cf6);
+    padding: 0.5em 2em;
+    border-radius: 6px;
+    color: #000;
+}
+
+
+.hero__img {
+    transform: rotate(15deg);
+    max-width: 550px;
+}
